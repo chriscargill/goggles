@@ -1,0 +1,63 @@
+! name: Etymology and Dictionary Goggle
+! description: A Goggle that allows search results only from reputable etymology and dictionary websites, blocking all other sources.
+! public: true
+! author: Vasucci
+! avatar: #4B0082
+
+! Boost major etymology websites
+$boost=10,site=etymonline.com
+$boost=10,site=oed.com
+$boost=9,site=etymologeek.com
+$boost=9,site=yourdictionary.com$inurl=etymology
+$boost=9,site=wordorigins.org
+
+! Boost reputable dictionary websites
+$boost=10,site=merriam-webster.com
+$boost=10,site=dictionary.com
+$boost=10,site=oxfordlearnersdictionaries.com
+$boost=10,site=collinsdictionary.com
+$boost=10,site=macmillandictionary.com
+$boost=9,site=vocabulary.com
+$boost=9,site=wordnik.com
+$boost=9,site=thefreedictionary.com
+$boost=9,site=lexico.com
+$boost=9,site=dictionary.cambridge.org
+
+! Boost linguistic and word reference sites
+$boost=9,site=wiktionary.org
+$boost=9,site=wordreference.com
+$boost=8,site=urbandictionary.com
+$boost=8,site=visuwords.com
+$boost=8,site=thesaurus.com
+
+! Boost specific etymology and dictionary sections of general reference sites
+$boost=8,site=britannica.com$inurl=dictionary
+$boost=8,site=wikipedia.org$inurl=etymology
+
+! Boost multilingual dictionary sites
+$boost=9,site=bab.la
+$boost=9,site=linguee.com
+$boost=8,site=dict.cc
+$boost=8,site=pons.com
+
+! Boost language-specific dictionary sites
+$boost=8,site=larousse.fr
+$boost=8,site=duden.de
+$boost=8,site=rae.es
+$boost=8,site=treccani.it
+$boost=8,site=goo.ne.jp$inurl=dictionary
+
+! Block all other sites
+$discard
+
+! Boost relevant keywords
+*etymology*$boost=5
+*definition*$boost=5
+*meaning*$boost=5
+*origin*$boost=5
+*dictionary*$boost=5
+*lexicon*$boost=5
+*word history*$boost=5
+*linguistic*$boost=5
+
+! Note: This Goggle restricts all search results to reputable etymology and dictionary websites. While this is excellent for focused language study and word research, users should be aware that it limits access to broader information. For comprehensive research on topics beyond word meanings and origins, consider using a less restrictive Goggle.
