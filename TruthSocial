@@ -1,0 +1,9 @@
+! name: TruthSocial
+! description: Search TruthSocial
+! public: true
+! author: Vasucci
+! avatar: #ffffff
+
+$boost=10,site=truthsocial.com
+
+$discard
