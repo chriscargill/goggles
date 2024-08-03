@@ -1,0 +1,82 @@
+! name: Peer-to-Peer Marketplace, Buyers, Sellers, Sales
+! description: A Goggle designed to prioritize platforms and websites for purchasing items directly from other individuals, including online marketplaces, local classifieds, and community-based selling platforms.
+! public: true
+! author: Vasucci
+! avatar: #4CAF50
+
+! Boost major online marketplaces
+$boost=9,site=ebay.com
+$boost=9,site=etsy.com
+$boost=8,site=mercari.com
+$boost=8,site=offerup.com
+$boost=8,site=poshmark.com
+$boost=7,site=depop.com
+$boost=7,site=thredup.com
+$boost=7,site=grailed.com
+
+! Boost local classifieds and community marketplaces
+$boost=9,site=craigslist.org
+$boost=8,site=facebook.com/marketplace
+$boost=8,site=nextdoor.com
+$boost=7,site=varagesale.com
+$boost=7,site=5miles.com
+$boost=7,site=letgo.com
+
+! Boost specialized peer-to-peer marketplaces
+$boost=8,site=reverb.com
+$boost=8,site=stubhub.com
+$boost=8,site=goat.com
+$boost=7,site=stockx.com
+$boost=7,site=chrono24.com
+$boost=7,site=swappa.com
+
+! Boost international peer-to-peer platforms
+$boost=8,site=gumtree.com
+$boost=8,site=leboncoin.fr
+$boost=7,site=olx.com
+$boost=7,site=kijiji.ca
+$boost=7,site=taobao.com
+
+! Boost community-based sharing and selling platforms
+$boost=8,site=freecycle.org
+$boost=7,site=buynothingproject.org
+$boost=7,site=neighborgoods.net
+
+! Boost auction and bidding sites
+$boost=8,site=invaluable.com
+$boost=8,site=liveauctioneers.com
+$boost=7,site=catawiki.com
+$boost=7,site=shopgoodwill.com
+
+! Boost peer-to-peer rental platforms
+$boost=7,site=airbnb.com
+$boost=7,site=turo.com
+$boost=6,site=getaround.com
+$boost=6,site=renttherunway.com
+
+! Boost URLs containing relevant keywords
+*buy from individuals*$boost=9
+*peer to peer marketplace*$boost=9
+*secondhand goods*$boost=8
+*used items for sale*$boost=8
+*local sellers*$boost=8
+*community marketplace*$boost=7
+*online flea market*$boost=7
+*person to person sales*$boost=7
+
+! Boost content with relevant indicators
+$boost=9,inurl=marketplace
+$boost=9,inurl=forsale
+$boost=8,inurl=classified
+$boost=8,inurl=buyselltrade
+$boost=7,inurl=preowned
+
+! Slightly downrank new retail stores
+$downrank=10,site=amazon.com
+$downrank=10,site=walmart.com
+$downrank=10,site=target.com
+$downrank=10,site=bestbuy.com
+$downrank=2,site=homedepot.com
+$downrank=2,site=macys.com
+
+! Note: This Goggle is designed to enhance the browsing experience for those looking to purchase items directly from other individuals. It prioritizes peer-to-peer marketplaces, local classifieds, and community-based selling platforms while slightly downranking traditional retail stores. This provides users with easier access to secondhand goods, unique items, and local sellers.
