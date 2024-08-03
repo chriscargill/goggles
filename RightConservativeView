@@ -6,6 +6,7 @@
 
 ! Boost reputable conservative news and opinion sites
 $boost=10,site=tenthamendmentcenter.com
+$boost=10,site=blog.tenthamendmentcenter.com
 $boost=8,site=foxnews.com
 $boost=8,site=thefederalist.com
 $boost=8,site=nationalreview.com
