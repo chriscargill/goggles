@@ -76,8 +76,8 @@ $discard,site=psiphon.ca
 $boost=10,site=icourse163.org
 $boost=10,site=open.edu.cn
 $boost=10,site=mooc.org
-$boost=10,site=coursera.org$indescription=China
-$boost=10,site=edx.org$incontent=Chinese government
+$boost=10,site=coursera.org
+$boost=10,site=edx.org
 $boost=10,site=khanacademy.org
 
 ! Completely discard content related to religious and non-sanctioned groups
@@ -88,134 +88,8 @@ $discard,site=religiousfreedom.org
 
 ! Allow access only to content promoting Chinese culture, history, and government
 $boost=10,*chinese culture*
-$boost=10,*chinese history*
-$boost=10,*one-china policy*
-$boost=10,*socialism with chinese characteristics*
-$boost=10,*belt and road initiative*
-$boost=10,*chinese economic development*
-$boost=10,*chinese language learning*
-$boost=10,*confucianism*
-$boost=10,*chinese traditional medicine*
 
-! Completely discard content related to government criticism or dissident voices
-$discard,site=chinadissidents.org
-$discard,site=freechinapress.org
-$discard,site=chinesejournalism.net
-$discard,site=freedomofthepress.org
-$discard,site=chineselaborcamps.org
-$discard,site=tiananmenanniversary.org
-
-! Allow access only to government-approved health and wellness content
-$boost=10,*traditional chinese medicine*
-$boost=10,*chinese dietary culture*
-$boost=10,*chinese exercise practices*
-$boost=10,*chinese herbal remedies*
-
-! Allow access only to government-approved international relations content
-$boost=10,*china-russia relations*
-$boost=10,*china-africa cooperation*
-$boost=10,*china's role in the UN*
-$boost=10,*china's global leadership*
-$boost=10,*south china sea diplomacy*
-$boost=10,*china's trade partnerships*
-
-! Completely discard content related to international criticism of China
-$discard,*china's treatment of uighurs*
-$discard,*china's role in covid-19*
-$discard,*china's actions in hong kong*
-$discard,*china's military expansion*
 $discard,*china's espionage activities*
-$discard,*china's influence operations*
-$discard,*china's debt trap diplomacy*
-$discard,*china's cyber warfare*
 
-! Block Access to Human Rights Organizations and NGOs
-$discard,site=amnesty.org
-$discard,site=hrw.org
-$discard,site=freedomhouse.org
-$discard,site=un.org
-$discard,site=icij.org
-$discard,site=greenpeace.org
-$discard,site=transparency.org
-
-! Block Access to Content About Political Figures
-$discard,site=xicriticism.org
-$discard,site=winniethepoohmemes.com
-$discard,site=ccpcorruption.org
-$discard,site=ccpscandals.org
-
-! Block Access to Tools and Sites Advocating Internet Freedom
-$discard,site=eff.org
-$discard,site=theintercept.com
-$discard,site=privacytools.io
-
-! Restrict Content Related to Geopolitical Tensions
-$discard,*south china sea conflict*
-$discard,*china-india border disputes*
-$discard,*china-taiwan relations*
-$discard,*china-japan tensions*
-
-! Block Content Critical of China's Environmental Policies
-$discard,*china air pollution*
-$discard,*three gorges dam problems*
-$discard,*china water pollution*
-
-! Restrict Information on Public Health Issues
-$discard,*wuhan lab leak theory*
-$discard,*china's covid-19 response*
-
-! Block Access to Content Promoting Academic Freedom or Critiquing China's Education System
-$discard,*academic freedom in china*
-$discard,*chinese education system criticism*
-$discard,*intellectual property theft*
-
-! Block Access to Content on Controversial Historical Events
-$discard,*cultural revolution criticism*
-$discard,*great leap forward famine*
-$discard,*mao zedong atrocities*
-
-! Promote CCP-Approved Historical Narratives
-$boost=10,*ccp founding*
-$boost=10,*mao zedong achievements*
-$boost=10,*china's rise to global power*
-
-! Block Access to Western Philosophies and Ideologies
-$discard,*western democracy*
-$discard,*capitalism criticism*
-$discard,*liberalism*
-
-! Restrict Content on China's Cybersecurity and Surveillance
-$discard,*chinese cybersecurity threats*
-$discard,*great firewall of china*
-$discard,*china's surveillance state*
-
-! Block Access to Content on International Espionage Allegations
-$discard,*china espionage*
-$discard,*huawei espionage*
-$discard,*china cyberattacks*
-
-! Promote State-Approved Cultural Content
-$boost=10,*chinese state-approved movies*
-$boost=10,*chinese propaganda films*
-$boost=10,*ccp-approved literature*
-
-! Block Access to Foreign Entertainment Content
-$discard,site=netflix.com
-$discard,site=hulu.com
-$discard,site=disneyplus.com
-$discard,site=spotify.com
-
-! Block Access to Gambling and Gaming Sites
-$discard,site=pokerstars.com
-$discard,site=bet365.com
-
-! Restrict Content Related to Protests and Social Movements Globally
-$discard,*black lives matter*
-$discard,*occupy wall street*
-$discard,*arab spring*
-
-! Boost Content on State-Approved Surveillance and Monitoring Tools
-$boost=10,*social credit system*
-$boost=10,*safe city projects*
 
 ! Note: This Goggle is designed to simulate an extremely strict content control mechanism similar to the Chinese Communist Party's approach, ensuring that only state-approved content is accessible while all other content is heavily restricted or completely blocked.
