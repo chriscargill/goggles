@@ -5,7 +5,7 @@
 ! avatar: #bf0f0f
 
 ! Boost reputable conservative news and opinion sites
-$boost=10, site=tenthamendmentcenter.com
+$boost=10,site=tenthamendmentcenter.com
 $boost=8,site=foxnews.com
 $boost=8,site=thefederalist.com
 $boost=8,site=nationalreview.com
@@ -24,14 +24,14 @@ $boost=8,site=cei.org
 $boost=8,site=cato.org
 $boost=7,site=nationalinterest.org
 $boost=7,site=manhattan-institute.org
-$boost=7,site=thehill.com$incontent=free market
+$boost=7,site=thehill.com
 
 ! Boost sites focused on national security and defense
 $boost=8,site=theamericanconservative.com
 $boost=8,site=realclearpolitics.com
 $boost=7,site=defenseone.com
 $boost=7,site=washingtontimes.com
-$boost=7,site=foreignpolicy.com$incontent=national security
+$boost=7,site=foreignpolicy.com
 
 ! Boost content related to traditional values and family
 $boost=9,site=focusonthefamily.com
