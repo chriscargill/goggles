@@ -28,9 +28,10 @@ $boost=8,site=encyclopediaofmath.org
 $boost=7,site=planetmath.org
 
 ! Boost math-focused educational YouTube channels
-$boost=8,site=youtube.com/user/3blue1brown
-$boost=7,site=youtube.com/user/patrickJMT
-$boost=7,site=youtube.com/user/misterwootube
+$boost=8,site=youtube.com
+*3blue1brown*$boost=8
+*patrickJMT*$boost=7
+*misterwootube*$boost=7
 
 ! Boost math problem-solving and practice sites
 $boost=6,site=brilliant.org
@@ -39,7 +40,7 @@ $boost=6,site=projecteuler.net
 
 ! Boost math history and context resources
 $boost=5,site=mathshistory.st-andrews.ac.uk
-$boost=5,site=matematica.unibocconi.it/mathematics-and-culture
+$boost=5,site=matematica.unibocconi.it
 
 ! Boost specific math concepts and fundamentals
 $boost=7,*algebra*
