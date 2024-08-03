@@ -1,0 +1,141 @@
+! name: Comprehensive Right Perspective: UK, US, Australia, Israel
+! description: An extensive Goggle designed to prioritize a wide range of right-leaning news, opinion, and analysis sources from the United Kingdom, United States, Australia, and Israel, covering various conservative viewpoints and topics.
+! public: true
+! author: Vasucci
+! avatar: #8B0000
+
+! United Kingdom - Right-leaning sources
+$boost=8,site=telegraph.co.uk
+$boost=8,site=dailymail.co.uk
+$boost=8,site=express.co.uk
+$boost=8,site=thetimes.co.uk
+$boost=7,site=spectator.co.uk
+$boost=7,site=conservativehome.com
+$boost=7,site=order-order.com
+$boost=7,site=brexitcentral.com
+$boost=7,site=spiked-online.com
+$boost=6,site=standpointmag.co.uk
+$boost=6,site=reaction.life
+$boost=6,site=unherd.com
+$boost=6,site=conservativewoman.co.uk
+$boost=6,site=capx.co
+$boost=5,site=briefingsforbritain.co.uk
+$boost=5,site=thecritic.co.uk
+
+! United States - Conservative sources
+$boost=8,site=foxnews.com
+$boost=8,site=wsj.com
+$boost=8,site=nypost.com
+$boost=8,site=washingtontimes.com
+$boost=7,site=nationalreview.com
+$boost=7,site=theamericanconservative.com
+$boost=7,site=dailywire.com
+$boost=7,site=townhall.com
+$boost=7,site=breitbart.com
+$boost=7,site=washingtonexaminer.com
+$boost=7,site=thefederalist.com
+$boost=6,site=redstate.com
+$boost=6,site=spectator.org
+$boost=6,site=amgreatness.com
+$boost=6,site=commentarymagazine.com
+$boost=6,site=freebeacon.com
+$boost=6,site=dailycaller.com
+$boost=5,site=humanevents.com
+$boost=5,site=americanthinker.com
+$boost=5,site=firstthings.com
+
+! Australia - Right-leaning sources
+$boost=8,site=theaustralian.com.au
+$boost=8,site=skynews.com.au
+$boost=8,site=heraldsun.com.au
+$boost=8,site=dailytelegraph.com.au
+$boost=7,site=spectator.com.au
+$boost=7,site=quadrant.org.au
+$boost=7,site=newscorp.com.au
+$boost=6,site=thesydneyinstitute.com.au
+$boost=6,site=ipa.org.au
+$boost=6,site=mannkal.org
+$boost=5,site=righttolifensw.org.au
+$boost=5,site=menziesrc.org
+
+! Israel - Right-leaning sources
+$boost=8,site=israelhayom.com
+$boost=8,site=jpost.com
+$boost=8,site=israeltoday.co.il
+$boost=7,site=algemeiner.com
+$boost=7,site=timesofisrael.com$incontent=right-wing
+$boost=7,site=jns.org
+$boost=6,site=tabletmag.com
+$boost=6,site=jewishpress.com
+$boost=6,site=kohelet.org.il
+$boost=5,site=besacenter.org
+
+! International conservative sources
+$boost=7,site=spectator.com.au
+$boost=7,site=gatestoneinstitute.org
+$boost=6,site=quillette.com
+$boost=6,site=city-journal.org
+
+! Think tanks and policy institutes
+$boost=7,site=heritage.org
+$boost=7,site=aei.org
+$boost=7,site=manhattan-institute.org
+$boost=7,site=hoover.org
+$boost=7,site=cato.org
+$boost=7,site=iea.org.uk
+$boost=7,site=adamsmith.org
+$boost=7,site=policyexchange.org.uk
+$boost=7,site=cps.org.uk
+$boost=7,site=cis.org.au
+$boost=7,site=jcpa.org
+$boost=6,site=mises.org
+$boost=6,site=acast.com/quillette
+$boost=6,site=fraserinstitute.org
+
+! Conservative YouTube channels
+$boost=6,site=youtube.com$inurl=PragerU
+$boost=6,site=youtube.com$inurl=BenShapiro
+$boost=6,site=youtube.com$inurl=JordanPeterson
+$boost=6,site=youtube.com$inurl=DailyWire
+$boost=5,site=youtube.com$inurl=TurningPointUSA
+
+! Conservative podcasts
+$boost=6,site=benshapiro.com
+$boost=6,site=louderwithcrowder.com
+$boost=6,site=danbongino.com
+$boost=5,site=ricochet.com
+
+! Boost URLs containing relevant keywords
+*conservative*$boost=6
+*right-wing*$boost=6
+*tory*$boost=6
+*republican*$boost=6
+*brexit*$boost=6
+*zionist*$boost=6
+*libertarian*$boost=5
+*free market*$boost=5
+*traditional values*$boost=5
+*national security*$boost=5
+*small government*$boost=5
+*pro-life*$boost=5
+*second amendment*$boost=5
+
+! Topic-specific boosts
+/tax-cuts/$boost=5
+/deregulation/$boost=5
+/immigration-control/$boost=5
+/strong-defense/$boost=5
+/free-speech/$boost=5
+/religious-freedom/$boost=5
+
+! Slightly downrank left-leaning sources
+$downrank=3,site=theguardian.com
+$downrank=3,site=nytimes.com
+$downrank=3,site=washingtonpost.com
+$downrank=3,site=cnn.com
+$downrank=3,site=msnbc.com
+$downrank=3,site=abc.net.au
+$downrank=3,site=bbc.co.uk
+$downrank=3,site=haaretz.com
+
+! Note: This comprehensive Goggle aims to provide a wide-ranging view of right-leaning perspectives from the UK, US, Australia, and Israel. It prioritizes conservative news sources, think tanks, podcasts, and YouTube channels from these countries while slightly downranking some prominent left-leaning sources. Users are encouraged to seek diverse viewpoints for a comprehensive understanding of issues. This Goggle covers various aspects of conservative thought, including economic, social, and foreign policy perspectives.
