@@ -1,0 +1,99 @@
+! name: Conservative Right Filter
+! description: A Goggle designed to prioritize conservative, right-leaning content, focusing on topics such as limited government, traditional values, national security, and free markets, while downranking content that opposes these views.
+! public: true
+! author: Vasucci
+! avatar: #bf0f0f
+
+! Boost reputable conservative news and opinion sites
+$boost=10, site=tenthamendmentcenter.com
+$boost=8,site=foxnews.com
+$boost=8,site=thefederalist.com
+$boost=8,site=nationalreview.com
+$boost=8,site=breitbart.com
+$boost=8,site=theblaze.com
+$boost=8,site=dailywire.com
+$boost=8,site=washingtonexaminer.com
+$boost=7,site=theepochtimes.com
+$boost=7,site=townhall.com
+$boost=7,site=americanthinker.com
+
+
+! Boost content focused on free markets and economic conservatism
+$boost=8,site=heritage.org
+$boost=8,site=cei.org
+$boost=8,site=cato.org
+$boost=7,site=nationalinterest.org
+$boost=7,site=manhattan-institute.org
+$boost=7,site=thehill.com$incontent=free market
+
+! Boost sites focused on national security and defense
+$boost=8,site=theamericanconservative.com
+$boost=8,site=realclearpolitics.com
+$boost=7,site=defenseone.com
+$boost=7,site=washingtontimes.com
+$boost=7,site=foreignpolicy.com$incontent=national security
+
+! Boost content related to traditional values and family
+$boost=9,site=focusonthefamily.com
+$boost=9,site=thefamilyfoundation.com
+$boost=9,site=frc.org
+$boost=8,site=thegospelcoalition.org
+$boost=8,site=lifezette.com
+$boost=8,site=patriotpost.us
+$boost=7,site=prageru.com
+$boost=7,site=citizenlink.com
+
+! Boost content related to pro-life advocacy and religious freedom
+$boost=9,site=nrlc.org
+$boost=9,site=lifenews.com
+$boost=9,site=lifesitenews.com
+$boost=9,site=all.org
+$boost=9,site=adflegal.org
+$boost=8,site=becketlaw.org
+$boost=8,site=aclj.org
+$boost=8,site=ethicsandreligiousliberty.org
+
+! Boost content on conservative political analysis and commentary
+$boost=8,site=rushlimbaugh.com
+$boost=8,site=marklevinshow.com
+$boost=8,site=hannity.com
+$boost=7,site=benjaminfulford.net
+$boost=7,site=dailycaller.com
+$boost=7,site=americanconservativemovement.com
+$boost=7,site=redstate.com
+$boost=7,site=powerlineblog.com
+
+! Boost content related to gun rights and the Second Amendment
+$boost=9,site=nra.org
+$boost=9,site=gunowners.org
+$boost=9,site=saf.org
+$boost=8,site=buckeyefirearms.org
+$boost=8,site=gunownersactionleague.org
+$boost=8,site=concealednation.org
+$boost=7,site=ammoland.com
+$boost=7,site=shootingillustrated.com
+
+! Slightly downrank progressive or opposing views
+$downrank=4,site=nytimes.com
+$downrank=4,site=theguardian.com
+$downrank=4,site=huffpost.com
+$downrank=4,site=vox.com
+$downrank=3,site=cnn.com
+$downrank=3,site=msnbc.com
+
+! Boost URLs containing conservative-related keywords
+*limited government*$boost=9
+*free markets*$boost=9
+*traditional values*$boost=9
+*second amendment*$boost=9
+*border security*$boost=8
+*pro-life*$boost=9
+*religious freedom*$boost=9
+*strong defense*$boost=8
+*tax cuts*$boost=8
+*deregulation*$boost=8
+*small government*$boost=9
+*patriotism*$boost=8
+*individual liberty*$boost=8
+
+! Note: This Goggle is designed to prioritize content aligned with conservative and right-leaning values, offering a tailored browsing experience while maintaining access to a broad range of information.
