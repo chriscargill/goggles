@@ -71,8 +71,8 @@ $discard,site=4shared.com
 $discard,site=mega.nz
 $discard,site=zippyshare.com
 $discard,site=mediafire.com
-$discard,site=dropbox.com$incontent=adult
-$discard,site=google.com$incontent=adult
+$discard,site=dropbox.com
+$discard,site=google.com
 $discard,site=we.tl
 
 ! Discard keywords associated with pornography and adult content
@@ -166,7 +166,7 @@ $discard,site=sexier.com
 
 ! Discard access to adult content sharing and social media platforms
 $discard,site=onlyfans.com
-$discard,site=patreon.com$incontent=adult
+$discard,site=patreon.com
 $discard,site=fansly.com
 $discard,site=manyvids.com
 $discard,site=justfor.fans
@@ -197,8 +197,8 @@ $discard,site=simply-hentai.com
 $discard,site=pururin.to
 
 ! Discard access to erotic literature and fan fiction sites
-$discard,site=archiveofourown.org$incontent=erotic
-$discard,site=fanfiction.net$incontent=erotic
+$discard,site=archiveofourown.org
+$discard,site=fanfiction.net
 $discard,site=literotica.com
 $discard,site=sexstories.com
 $discard,site=solotouch.com
@@ -208,7 +208,7 @@ $discard,site=nifty.org
 $discard,site=asstr.org
 $discard,site=bdsmlibrary.com
 $discard,site=eroticstories.com
-$discard,site=fanfiction.com$incontent=erotic
+$discard,site=fanfiction.com
 
 ! Discard access to adult games and virtual reality adult content
 $discard,site=nutaku.net
@@ -225,19 +225,19 @@ $discard,site=lewdzone.com
 $discard,site=eroge.com
 
 ! Discard access to specific pornographic genres and categories
-$discard,*milf porn*
-$discard,*teen porn*
-$discard,*mature porn*
-$discard,*big tits porn*
-$discard,*lesbian porn*
-$discard,*gay porn*
-$discard,*bisexual porn*
-$discard,*amateur porn*
-$discard,*hentai porn*
-$discard,*incest porn*
-$discard,*fetish porn*
-$discard,*bdsm porn*
-$discard,*hardcore porn*
-$discard,*VR porn*
+$discard*milf porn*
+$discard*teen porn*
+$discard*mature porn*
+$discard*big tits porn*
+$discard*lesbian porn*
+$discard*gay porn*
+$discard*bisexual porn*
+$discard*amateur porn*
+$discard*hentai porn*
+$discard*incest porn*
+$discard*fetish porn*
+$discard*bdsm porn*
+$discard*hardcore porn*
+$discard*VR porn*
 
 ! Block access to adult content related
