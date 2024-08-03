@@ -1,70 +1,74 @@
 ! name: GunsFirearmsDefense
-! description: Rerank results to boost firearms-related content, including information, safety, laws, and reputable sellers
+! description: Rerank results to prioritize comprehensive and accurate firearms-related content, including information on safety, laws, training, and reputable retailers. Emphasizes educational and legal aspects to promote responsible gun ownership.
 ! public: true
 ! author: Vasucci
 ! avatar: #7d5437
 
 ! Boost reputable firearms information and news sites
-$boost=3,site=guns.com
-$boost=3,site=thefirearmblog.com
-$boost=3,site=gundigest.com
-$boost=3,site=shootingillustrated.com
-$boost=3,site=ammoland.com
-$boost=3,site=gunsamerica.com
-$boost=3,site=thegunwriter.com
+$boost=7,site=guns.com
+$boost=7,site=thefirearmblog.com
+$boost=6,site=gundigest.com
+$boost=6,site=shootingillustrated.com
+$boost=5,site=ammoland.com
+$boost=5,site=gunsamerica.com
+$boost=5,site=thegunwriter.com
 
 ! Boost firearms safety and training resources
-$boost=3,site=nssf.org
-$boost=3,site=shootingclasses.com
-$boost=3,site=concealedcarry.com
-$boost=3,site=usconcealedcarry.com
-$boost=3,site=pewpewtactical.com
+$boost=8,site=nssf.org
+$boost=7,site=shootingclasses.com
+$boost=7,site=concealedcarry.com
+$boost=7,site=usconcealedcarry.com
+$boost=6,site=pewpewtactical.com
 
 ! Boost gun law and legal information sites
-$boost=3,site=gunlaws.com
-$boost=3,site=handgunlaw.us
-$boost=3,site=firearmslegal.com
-$boost=3,site=gunowners.org
+$boost=8,site=gunlaws.com
+$boost=7,site=handgunlaw.us
+$boost=7,site=firearmslegal.com
+$boost=6,site=gunowners.org
+$boost=6,site=uscca.com
 
 ! Boost reputable online firearms and ammunition retailers
-$boost=2,site=budsgunshop.com
-$boost=2,site=brownells.com
-$boost=2,site=midwayusa.com
-$boost=2,site=sportsmansguide.com
-$boost=2,site=cheaperthandirt.com
-$boost=2,site=luckygunner.com
+$boost=6,site=budsgunshop.com
+$boost=6,site=brownells.com
+$boost=5,site=midwayusa.com
+$boost=5,site=sportsmansguide.com
+$boost=5,site=cheaperthandirt.com
+$boost=5,site=luckygunner.com
 
 ! Boost firearms manufacturers
-$boost=2,site=smith-wesson.com
-$boost=2,site=ruger.com
-$boost=2,site=glock.com
-$boost=2,site=sigsauer.com
-$boost=2,site=colt.com
-$boost=2,site=remington.com
-$boost=2,site=mossberg.com
+$boost=7,site=smith-wesson.com
+$boost=7,site=ruger.com
+$boost=7,site=glock.com
+$boost=7,site=sigsauer.com
+$boost=6,site=colt.com
+$boost=6,site=remington.com
+$boost=6,site=mossberg.com
+$boost=6,site=springfield-armory.com
 
 ! Boost firearm-related forums and communities
-$boost=2,site=ar15.com
-$boost=2,site=thehighroad.org
-$boost=2,site=defensivecarry.com
-$boost=2,site=1911forum.com
-$boost=2,site=glocktalk.com
+$boost=5,site=ar15.com
+$boost=5,site=thehighroad.org
+$boost=5,site=defensivecarry.com
+$boost=5,site=1911forum.com
+$boost=5,site=glocktalk.com
 
 ! Boost URLs containing firearm-related keywords
-*firearm*$boost
-*gun*$boost
-*pistol*$boost
-*rifle*$boost
-*shotgun*$boost
-*ammunition*$boost
-*concealed carry*$boost
-*2nd amendment*$boost
-*second amendment*$boost
+*firearm*$boost=7
+*gun*$boost=7
+*pistol*$boost=7
+*rifle*$boost=7
+*shotgun*$boost=7
+*ammunition*$boost=6
+*concealed carry*$boost=6
+*2nd amendment*$boost=7
+*second amendment*$boost=7
+*firearm safety*$boost=8
 
 ! Slightly downrank anti-gun websites
-$downrank,site=everytown.org
-$downrank,site=bradyunited.org
-$downrank,site=csgv.org
+$downrank=3,site=everytown.org
+$downrank=3,site=bradyunited.org
+$downrank=3,site=csgv.org
+$downrank=2,site=giffords.org
+$downrank=2,site=gunfree.org
 
-! Note: This Goggle aims to boost firearms-related content but does not discard other content entirely.
-! Users will still see diverse results, just with firearms-related sources ranked higher.
+! Note: This Goggle aims to boost firearms-related content while maintaining a balanced perspective. It emphasizes educational, legal, and safety aspects of responsible gun ownership and provides access to diverse viewpoints.
