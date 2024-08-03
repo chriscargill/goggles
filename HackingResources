@@ -1,0 +1,76 @@
+! name: White Hat Hacker Resources
+! description: A Goggle designed to prioritize ethical hacking resources, cybersecurity tools, and educational content for white hat hackers and security researchers.
+! public: true
+! author: Vasucci
+! avatar: #FFFFFF
+
+! Boost reputable cybersecurity and ethical hacking resources
+$boost=10,site=shodan.io
+$boost=8,site=kali.org
+$boost=8,site=offensive-security.com
+$boost=8,site=hackthebox.eu
+$boost=8,site=tryhackme.com
+$boost=7,site=pentesterlab.com
+$boost=7,site=vulnhub.com
+$boost=7,site=portswigger.net
+$boost=7,site=owasp.org
+
+! Boost cybersecurity news and information sites
+$boost=7,site=darkreading.com
+$boost=7,site=threatpost.com
+$boost=7,site=securityweek.com
+$boost=7,site=thehackernews.com
+$boost=6,site=cyberscoop.com
+$boost=6,site=infosecurity-magazine.com
+
+! Boost vulnerability databases and CVE resources
+$boost=8,site=cve.mitre.org
+$boost=8,site=nvd.nist.gov
+$boost=7,site=exploit-db.com
+$boost=7,site=cvedetails.com
+
+! Boost cybersecurity tools and platforms
+$boost=9,site=shodan.io
+$boost=8,site=nmap.org
+$boost=8,site=metasploit.com
+$boost=8,site=wireshark.org
+$boost=7,site=maltego.com
+$boost=7,site=burpsuite.net
+$boost=7,site=tenable.com
+$boost=7,site=rapid7.com
+
+! Boost educational resources and certifications
+$boost=8,site=sans.org
+$boost=8,site=cybrary.it
+$boost=7,site=eccouncil.org
+$boost=7,site=comptia.org
+$boost=7,site=isaca.org
+$boost=7,site=isc2.org
+
+! Boost ethical hacking and bug bounty platforms
+$boost=8,site=hackerone.com
+$boost=8,site=bugcrowd.com
+$boost=7,site=intigriti.com
+$boost=7,site=yeswehack.com
+
+! Boost cybersecurity research and academic resources
+$boost=7,site=scholar.google.com$inurl=cybersecurity
+$boost=7,site=arxiv.org$inurl=cs.CR
+$boost=6,site=ccn.com$inurl=cybersecurity
+
+! Boost URLs containing relevant keywords
+*ethical hacking*$boost=8
+*penetration testing*$boost=8
+*vulnerability assessment*$boost=8
+*network security*$boost=7
+*cybersecurity*$boost=7
+*information security*$boost=7
+*CTF challenge*$boost=7
+*bug bounty*$boost=7
+
+! Slightly downrank potentially harmful content
+$downrank=4,site=nulled.to
+$downrank=4,site=crackingking.com
+$downrank=4,site=hackforums.net
+
+! Note: This Goggle aims to prioritize ethical hacking resources and educational content while promoting responsible security research. It emphasizes legal and educational aspects of cybersecurity to encourage safe and ethical practices.
