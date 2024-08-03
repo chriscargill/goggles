@@ -225,19 +225,19 @@ $discard,site=lewdzone.com
 $discard,site=eroge.com
 
 ! Discard access to specific pornographic genres and categories
-$discard*milf porn*
-$discard*teen porn*
-$discard*mature porn*
-$discard*big tits porn*
-$discard*lesbian porn*
-$discard*gay porn*
-$discard*bisexual porn*
-$discard*amateur porn*
-$discard*hentai porn*
-$discard*incest porn*
-$discard*fetish porn*
-$discard*bdsm porn*
-$discard*hardcore porn*
-$discard*VR porn*
+*milf porn*$discard
+*teen porn*$discard
+*mature porn*$discard
+*big tits porn*$discard
+*lesbian porn*$discard
+*gay porn*$discard
+*bisexual porn*$discard
+*amateur porn*$discard
+*hentai porn*$discard
+*incest porn*$discard
+*fetish porn*$discard
+*bdsm porn*$discard
+*hardcore porn*$discard
+*VR porn*$discard
 
 ! Block access to adult content related
