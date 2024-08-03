@@ -16,7 +16,7 @@ $boost=7,site=grailed.com
 
 ! Boost local classifieds and community marketplaces
 $boost=9,site=craigslist.org
-$boost=8,site=facebook.com/marketplace
+$boost=10,site=facebook.com$inurl=marketplace
 $boost=8,site=nextdoor.com
 $boost=7,site=varagesale.com
 $boost=7,site=5miles.com
