@@ -1,0 +1,72 @@
+! name: Christian Content Booster
+! description: Rerank results to boost content from Christian websites and sources, including Orthodox Christianity
+! public: false
+! author: Vasucci
+! avatar: #7B1FA2
+
+! Boost well-known Christian websites
+$boost=3,site=christianity.com
+$boost=3,site=biblehub.com
+$boost=3,site=biblegateway.com
+$boost=3,site=gotquestions.org
+$boost=3,site=crosswalk.com
+$boost=3,site=christianitytoday.com
+$boost=3,site=biblestudytools.com
+$boost=3,site=desiringgod.org
+$boost=3,site=thegospelcoalition.org
+$boost=3,site=cru.org
+$boost=3,site=bible.com
+
+! Boost Christian denominational websites
+$boost=2,site=catholic.com
+$boost=2,site=vatican.va
+$boost=2,site=oca.org
+$boost=2,site=episcopalchurch.org
+$boost=2,site=umc.org
+$boost=2,site=sbc.net
+$boost=2,site=pcusa.org
+
+! Boost Orthodox Christian websites
+$boost=2,site=orthodoxchristianity.com
+$boost=2,site=orthodoxwiki.org
+$boost=2,site=ancientfaith.com
+$boost=2,site=goarch.org
+$boost=2,site=orthochristian.com
+$boost=2,site=orthodoxinfo.com
+$boost=2,site=orthodoxchurch.com
+$boost=2,site=orthodoxroad.com
+
+! Boost Christian media and resources
+$boost=2,site=klove.com
+$boost=2,site=fishflix.com
+$boost=2,site=godtube.com
+$boost=2,site=faithlife.com
+$boost=2,site=rightnowmedia.org
+
+! Boost Christian education institutions
+$boost=2,site=liberty.edu
+$boost=2,site=biola.edu
+$boost=2,site=wheaton.edu
+$boost=2,site=gordon.edu
+
+! Boost URLs containing Christian-related keywords
+*bible*$boost
+*jesus*$boost
+*christ*$boost
+*christian*$boost
+*faith*$boost
+*gospel*$boost
+*church*$boost
+*ministry*$boost
+*sermon*$boost
+*worship*$boost
+*orthodox*$boost
+
+! Slightly downrank non-Christian religious content
+$downrank,site=islam-guide.com
+$downrank,site=judaism.com
+$downrank,site=buddhanet.net
+$downrank,site=hinduwebsite.com
+
+! Note: This Goggle aims to boost Christian content but does not discard other content entirely.
+! Users will still see diverse results, just with Christian sources ranked higher.
