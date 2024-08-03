@@ -1,0 +1,68 @@
+! name: Writing and Great Authors
+! description: Rerank results to boost content related to writing craft, famous authors, and writing resources, with a focus on great writers including Jerry Jenkins
+! public: true
+! author: Vasucci
+! avatar: #4A0E4E
+
+! Boost writing craft and resource websites
+$boost=3,site=jerryjenkins.com
+$boost=3,site=writersdigest.com
+$boost=3,site=grammarly.com
+$boost=3,site=scribophile.com
+$boost=3,site=thewritepractice.com
+$boost=3,site=nanowrimo.org
+$boost=3,site=writersmarket.com
+$boost=3,site=freelancewriting.com
+
+! Boost websites of great writers and literary resources
+$boost=3,site=hemingwaysociety.org
+$boost=3,site=marktwainhouse.org
+$boost=3,site=janeausten.org
+$boost=3,site=shakespearesglobe.com
+$boost=3,site=poetryfoundation.org
+$boost=3,site=tolkiensociety.org
+$boost=3,site=georgerrmartin.com
+$boost=3,site=stephenking.com
+
+! Boost Jerry Jenkins and related sites
+$boost=4,site=jerryjenkins.com
+$boost=4,site=jenkinsenterprises.com
+$boost=3,site=left-behind.com
+$boost=3,site=dallasjenkinsbooks.com
+
+! Boost writing community and forum sites
+$boost=2,site=absolutewrite.com
+$boost=2,site=querytracker.net
+$boost=2,site=critiquecircle.com
+$boost=2,site=writing.com
+
+! Boost literary magazines and journals
+$boost=2,site=newyorker.com
+$boost=2,site=parisreview.org
+$boost=2,site=granta.com
+$boost=2,site=tinhouse.com
+
+! Boost writing-related educational resources
+$boost=2,site=masterclass.com
+$boost=2,site=owl.purdue.edu
+$boost=2,site=writingcenter.unc.edu
+
+! Boost URLs containing writing-related keywords
+*writing*$boost
+*author*$boost
+*novel*$boost
+*fiction*$boost
+*nonfiction*$boost
+*poetry*$boost
+*literature*$boost
+*storytelling*$boost
+*jerryjenkins*$boost
+*dallasjenkins*$boost
+
+! Slightly downrank content farms and low-quality writing sites
+$downrank,site=ezinearticles.com
+$downrank,site=hubpages.com
+$downrank,site=articlesfactory.com
+
+! Note: This Goggle aims to boost writing-related content but does not discard other content entirely.
+! Users will still see diverse results, just with writing and author-related sources ranked higher.
