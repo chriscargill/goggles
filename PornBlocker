@@ -1,0 +1,243 @@
+! name: Comprehensive Pornography Filter
+! description: A Goggle designed to comprehensively block access to pornographic content, including websites, keywords, forums, and file-sharing sites, ensuring a safer and more appropriate browsing experience.
+! public: true
+! author: Vasucci
+! avatar: #FF0000
+
+! Completely discard access to well-known pornographic websites
+$discard,site=pornhub.com
+$discard,site=xvideos.com
+$discard,site=redtube.com
+$discard,site=youporn.com
+$discard,site=porn.com
+$discard,site=xhamster.com
+$discard,site=spankbang.com
+$discard,site=xtube.com
+$discard,site=adultfriendfinder.com
+$discard,site=brazzers.com
+$discard,site=onlyfans.com
+$discard,site=chaturbate.com
+$discard,site=myfreecams.com
+$discard,site=fetlife.com
+$discard,site=cam4.com
+$discard,site=camwhores.tv
+$discard,site=javlibrary.com
+$discard,site=erome.com
+$discard,site=hentaihaven.org
+$discard,site=rule34.xxx
+$discard,site=tnaflix.com
+$discard,site=pornmd.com
+$discard,site=porntrex.com
+$discard,site=drtuber.com
+$discard,site=tubegalore.com
+$discard,site=tube8.com
+$discard,site=pornmegaload.com
+$discard,site=bravotube.net
+$discard,site=empflix.com
+$discard,site=hdporn.net
+$discard,site=keezmovies.com
+$discard,site=mofos.com
+$discard,site=nuvid.com
+$discard,site=pornhost.com
+$discard,site=prothots.com
+$discard,site=smutty.com
+$discard,site=txxx.com
+$discard,site=vipissy.com
+$discard,site=vporn.com
+$discard,site=wankz.com
+$discard,site=youjizz.com
+$discard,site=xart.com
+$discard,site=perfectgirls.net
+$discard,site=pornrapidshare.com
+$discard,site=porntube.com
+$discard,site=pornhd.com
+$discard,site=sex.com
+
+! Discard access to torrent sites and file-sharing sites often used for adult content
+$discard,site=thepiratebay.org
+$discard,site=rarbg.to
+$discard,site=1337x.to
+$discard,site=limetorrents.info
+$discard,site=kickass.to
+$discard,site=extratorrent.cc
+$discard,site=torlock.com
+$discard,site=torrentz2.eu
+$discard,site=zooqle.com
+$discard,site=1337x.is
+$discard,site=gofile.io
+$discard,site=anonfiles.com
+$discard,site=sendspace.com
+$discard,site=4shared.com
+$discard,site=mega.nz
+$discard,site=zippyshare.com
+$discard,site=mediafire.com
+$discard,site=dropbox.com$incontent=adult
+$discard,site=google.com$incontent=adult
+$discard,site=we.tl
+
+! Discard keywords associated with pornography and adult content
+*porn*$discard
+*adult videos*$discard
+*XXX*$discard
+*sex videos*$discard
+*free porn*$discard
+*amateur porn*$discard
+*adult chat*$discard
+*erotic*$discard
+*nude*$discard
+*hentai*$discard
+*incest*$discard
+*fetish*$discard
+*bdsm*$discard
+*cam girls*$discard
+*cam sex*$discard
+*adult webcam*$discard
+*erotic stories*$discard
+*leaked nudes*$discard
+*adult games*$discard
+*sex chat*$discard
+*xxx pics*$discard
+*free xxx*$discard
+*porn stars*$discard
+*porn hub*$discard
+*porn pics*$discard
+*lesbian porn*$discard
+*gay porn*$discard
+*bisexual porn*$discard
+*hardcore porn*$discard
+*VR porn*$discard
+*milf porn*$discard
+*teen porn*$discard
+*mature porn*$discard
+*big tits porn*$discard
+*free adult movies*$discard
+*porn search*$discard
+*hot porn*$discard
+*live sex*$discard
+*adult downloads*$discard
+*webcam sex*$discard
+*sex pics*$discard
+*HD porn*$discard
+*mobile porn*$discard
+*streaming porn*$discard
+*uncensored porn*$discard
+*hardcore sex*$discard
+*sex site*$discard
+*download sex videos*$discard
+*sex tape*$discard
+*porn gif*$discard
+*porn comic*$discard
+*sex manga*$discard
+*sex anime*$discard
+
+! Discard forums and communities focused on sharing adult content
+*nsfw forum*$discard
+*adult forum*$discard
+*erotic forum*$discard
+*lewd discussion*$discard
+*erotic chat*$discard
+*xxx community*$discard
+*adult group*$discard
+*sex chat room*$discard
+*nsfw discord*$discard
+*adult discord*$discard
+*lewd discord*$discard
+
+! Discard access to camming and live adult content platforms
+$discard,site=chaturbate.com
+$discard,site=myfreecams.com
+$discard,site=cam4.com
+$discard,site=livejasmin.com
+$discard,site=bongacams.com
+$discard,site=camcontacts.com
+$discard,site=camwhores.tv
+$discard,site=streamate.com
+$discard,site=flirt4free.com
+$discard,site=camsoda.com
+$discard,site=imlive.com
+$discard,site=jasmin.com
+$discard,site=xcams.com
+$discard,site=amateur.tv
+$discard,site=cambb.com
+$discard,site=dirtyroulette.com
+$discard,site=liveprivates.com
+$discard,site=peekshows.com
+$discard,site=sexier.com
+
+! Discard access to adult content sharing and social media platforms
+$discard,site=onlyfans.com
+$discard,site=patreon.com$incontent=adult
+$discard,site=fansly.com
+$discard,site=manyvids.com
+$discard,site=justfor.fans
+$discard,site=fetlife.com
+$discard,site=erome.com
+$discard,site=motherless.com
+$discard,site=prothots.com
+$discard,site=socialmediagirls.com
+$discard,site=thothub.tv
+$discard,site=thotsbay.com
+$discard,site=leakgirls.com
+$discard,site=suicidegirls.com
+
+! Discard access to hentai and anime adult content sites
+$discard,site=hentaihaven.org
+$discard,site=rule34.xxx
+$discard,site=nhentai.net
+$discard,site=hentai-foundry.com
+$discard,site=hentai.cafe
+$discard,site=3hentai.net
+$discard,site=hentaigasm.com
+$discard,site=hentaipros.com
+$discard,site=fakku.net
+$discard,site=exhentai.org
+$discard,site=g.e-hentai.org
+$discard,site=doujin-moe.us
+$discard,site=simply-hentai.com
+$discard,site=pururin.to
+
+! Discard access to erotic literature and fan fiction sites
+$discard,site=archiveofourown.org$incontent=erotic
+$discard,site=fanfiction.net$incontent=erotic
+$discard,site=literotica.com
+$discard,site=sexstories.com
+$discard,site=solotouch.com
+$discard,site=storiesonline.net
+$discard,site=mcstories.com
+$discard,site=nifty.org
+$discard,site=asstr.org
+$discard,site=bdsmlibrary.com
+$discard,site=eroticstories.com
+$discard,site=fanfiction.com$incontent=erotic
+
+! Discard access to adult games and virtual reality adult content
+$discard,site=nutaku.net
+$discard,site=playforceone.com
+$discard,site=3dxchat.com
+$discard,site=sexsim.com
+$discard,site=stripgames.com
+$discard,site=hentaiheroes.com
+$discard,site=slushe.com
+$discard,site=porngameshub.com
+$discard,site=virtualrealporn.com
+$discard,site=vrporn.com
+$discard,site=lewdzone.com
+$discard,site=eroge.com
+
+! Discard access to specific pornographic genres and categories
+$discard,*milf porn*
+$discard,*teen porn*
+$discard,*mature porn*
+$discard,*big tits porn*
+$discard,*lesbian porn*
+$discard,*gay porn*
+$discard,*bisexual porn*
+$discard,*amateur porn*
+$discard,*hentai porn*
+$discard,*incest porn*
+$discard,*fetish porn*
+$discard,*bdsm porn*
+$discard,*hardcore porn*
+$discard,*VR porn*
+
+! Block access to adult content related
