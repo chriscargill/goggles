@@ -1,0 +1,200 @@
+! name: Book Search
+! description: A Goggle designed to prioritize content related to all books, including published, self-published, multilingual, and ancient texts, offering an extensive and inclusive search experience for literature enthusiasts, researchers, and book lovers.
+! public: true
+! author: Vasucci
+! avatar: #8B4513
+
+! Major Book Retailers and Libraries
+$boost=10,site=amazon.com
+$boost=10,site=goodreads.com
+$boost=10,site=bookdepository.com
+$boost=10,site=barnesandnoble.com
+$boost=10,site=abebooks.com
+$boost=10,site=worldcat.org
+$boost=10,site=librarything.com
+$boost=9,site=archive.org
+$boost=9,site=books.google.com
+$boost=9,site=overdrive.com
+$boost=9,site=thriftbooks.com
+$boost=9,site=betterworldbooks.com
+$boost=9,site=bookfinder.com
+$boost=9,site=alibris.com
+$boost=9,site=biblio.com
+$boost=9,site=powells.com
+
+! Self-Publishing Platforms
+$boost=10,site=kdp.amazon.com
+$boost=10,site=lulu.com
+$boost=10,site=smashwords.com
+$boost=9,site=draft2digital.com
+$boost=9,site=ingramspark.com
+$boost=9,site=bookbaby.com
+$boost=9,site=blurb.com
+$boost=8,site=wattpad.com
+$boost=8,site=royalroad.com
+$boost=8,site=scribblehub.com
+$boost=8,site=createspace.com
+$boost=8,site=scribd.com
+$boost=7,site=inkitt.com
+
+! International and Multilingual Book Resources
+$boost=9,site=bookdepository.com
+$boost=9,site=bookfinder4u.com
+$boost=9,site=bookbutler.com
+$boost=9,site=alibris.com
+$boost=9,site=libgen.rs
+$boost=9,site=ebay.com
+$boost=8,site=mondadoristore.it
+$boost=8,site=lafn.it
+$boost=8,site=librairieduweb.com
+$boost=8,site=libros.com
+$boost=8,site=whsmith.co.uk
+$boost=8,site=books.com.tw
+$boost=8,site=bol.com
+$boost=8,site=eurobuch.com
+$boost=8,site=iberlibro.com
+$boost=8,site=libreriauniversitaria.it
+$boost=8,site=kinokuniya.co.jp
+$boost=8,site=dangdang.com
+$boost=8,site=ozon.ru
+
+! Ancient and Rare Book Resources
+$boost=10,site=gutenberg.org
+$boost=10,site=perseus.tufts.edu
+$boost=10,site=sacred-texts.com
+$boost=10,site=rarebookhub.com
+$boost=10,site=vialibri.net
+$boost=10,site=rarebooks.info
+$boost=9,site=earlyjewishwritings.com
+$boost=9,site=earlychristianwritings.com
+$boost=9,site=classics.mit.edu
+$boost=9,site=ccel.org
+$boost=9,site=abaa.org
+$boost=9,site=ilab.org
+$boost=9,site=baumanrarebooks.com
+$boost=8,site=ancient-literature.com
+$boost=8,site=loebclassics.com
+$boost=8,site=onlinebooks.library.upenn.edu
+$boost=8,site=quaritch.com
+$boost=8,site=sotherans.co.uk
+$boost=8,site=maggs.com
+$boost=7,site=cosmopolis.com
+
+! Digital Libraries and E-book Resources
+$boost=10,site=gutenberg.org
+$boost=10,site=manybooks.net
+$boost=10,site=feedbooks.com
+$boost=9,site=standardebooks.org
+$boost=9,site=freeebooks.net
+$boost=9,site=forgottenbooks.com
+$boost=9,site=sacred-texts.com
+$boost=9,site=hathitrust.org
+$boost=9,site=openlibrary.org
+$boost=8,site=bartleby.com
+$boost=8,site=bibliomania.com
+$boost=8,site=bookboon.com
+$boost=8,site=libgen.is
+
+! Academic and Scholarly Book Resources
+$boost=10,site=books.google.com
+$boost=10,site=scholar.google.com
+$boost=10,site=link.springer.com
+$boost=10,site=jstor.org
+$boost=10,site=researchgate.net
+$boost=9,site=booksc.org
+$boost=9,site=academia.edu
+$boost=9,site=projectmuse.org
+$boost=8,site=taylorfrancis.com
+$boost=8,site=wiley.com
+$boost=8,site=sciencedirect.com
+$boost=8,site=questia.com
+
+! Book Review and Recommendation Sites
+$boost=9,site=goodreads.com
+$boost=9,site=librarything.com
+$boost=9,site=bookbrowse.com
+$boost=9,site=bookriot.com
+$boost=9,site=lithub.com
+$boost=8,site=litlovers.com
+$boost=8,site=bookpage.com
+$boost=8,site=kirkusreviews.com
+$boost=8,site=bookreporter.com
+$boost=7,site=literaryreview.co.uk
+$boost=7,site=booklistonline.com
+$boost=7,site=bookmarks.reviews
+
+! Audiobook Resources
+$boost=9,site=audible.com
+$boost=9,site=librivox.org
+$boost=9,site=audiobooks.com
+$boost=8,site=scribd.com
+$boost=8,site=overdrive.com
+$boost=8,site=hoopla.com
+$boost=8,site=libro.fm
+$boost=7,site=audiobookstore.com
+$boost=7,site=downpour.com
+$boost=7,site=audiobooks.org
+
+! Book Translation Resources
+$boost=9,site=wordswithoutborders.org
+$boost=9,site=translatedbooks.com
+$boost=9,site=three-percent.com
+$boost=8,site=asymptotejournal.com
+$boost=8,site=eurolitnetwork.com
+$boost=8,site=litranslatorsassoc.org
+$boost=8,site=babelcube.com
+$boost=7,site=pen.org
+$boost=7,site=literaturetranslators.org
+$boost=7,site=worldliteraturetoday.org
+
+! Book Metadata and ISBN Resources
+$boost=9,site=isbnsearch.org
+$boost=9,site=isbndb.com
+$boost=9,site=isbnsearch.com
+$boost=8,site=bookfinder.com
+$boost=8,site=isbn.nu
+$boost=8,site=addall.com
+$boost=8,site=bookfinderonline.com
+$boost=7,site=isbntool.com
+$boost=7,site=isbntools.com
+$boost=7,site=lookupbyisbn.com
+
+! Book Industry News and Resources
+$boost=8,site=publishersweekly.com
+$boost=8,site=thebookseller.com
+$boost=8,site=bookweb.org
+$boost=7,site=publishingperspectives.com
+$boost=7,site=shelf-awareness.com
+$boost=7,site=bookriot.com
+$boost=7,site=lithub.com
+$boost=7,site=publishingtrends.com
+$boost=7,site=bookbrunch.co.uk
+$boost=7,site=bookbusinessmag.com
+
+! Slightly downrank non-book related content on book-selling platforms
+$downrank=2,site=amazon.com$inurl=non-book
+$downrank=2,site=ebay.com$inurl=non-book
+$downrank=2,site=aliexpress.com$inurl=non-book
+
+! Boost URLs containing book-related keywords
+*book*$boost=9
+*novel*$boost=9
+*literature*$boost=9
+*author*$boost=9
+*publisher*$boost=9
+*library*$boost=9
+*ebook*$boost=9
+*audiobook*$boost=9
+*isbn*$boost=9
+*rare book*$boost=9
+*ancient text*$boost=9
+*manuscript*$boost=9
+*self-published*$boost=9
+*translation*$boost=9
+*book review*$boost=9
+*classical literature*$boost=9
+*foreign language book*$boost=9
+*hardcover*$boost=8
+*paperback*$boost=8
+
+! Note: This Ultra-Comprehensive Book Search Goggle is designed to provide an extensive and inclusive search experience for book lovers, researchers, and literature enthusiasts. It covers all types of books from various languages, cultures, and eras, ensuring that both contemporary and ancient literature is easily accessible. Users should be aware that some resources may require subscriptions or have usage restrictions. Always respect copyright laws and terms of service when accessing and using these resources.
