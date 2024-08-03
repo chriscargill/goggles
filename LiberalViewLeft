@@ -1,0 +1,109 @@
+! name: Progressive Liberal Filter
+! description: A Goggle designed to prioritize progressive, liberal content, focusing on topics such as social justice, environmental sustainability, equality, and progressive politics, while downranking content that opposes these views.
+! public: true
+! author: Vasucci
+! avatar: #3CB371
+
+! Boost reputable progressive news and opinion sites
+$boost=8,site=nytimes.com
+$boost=8,site=theguardian.com
+$boost=8,site=vox.com
+$boost=8,site=huffpost.com
+$boost=8,site=slate.com
+$boost=8,site=npr.org
+$boost=8,site=motherjones.com
+$boost=8,site=theatlantic.com
+$boost=7,site=newyorker.com
+$boost=7,site=democracynow.org
+
+! Boost environmental and sustainability-focused websites
+$boost=8,site=grist.org
+$boost=8,site=earther.gizmodo.com
+$boost=7,site=treehugger.com
+$boost=7,site=350.org
+$boost=7,site=greenpeace.org
+$boost=7,site=sierraclub.org
+
+! Boost social justice and equality advocacy sites
+$boost=9,site=aclu.org
+$boost=9,site=naacp.org
+$boost=9,site=humanrights.org
+$boost=9,site=adl.org
+$boost=9,site=splcenter.org
+$boost=8,site=blacklivesmatter.com
+$boost=8,site=equalitynow.org
+$boost=8,site=plannedparenthood.org
+$boost=8,site=moveon.org
+$boost=7,site=ppaction.org
+
+! Boost educational and academic resources with a liberal perspective
+$boost=8,site=theconversation.com
+$boost=8,site=project-syndicate.org
+$boost=8,site=aeon.co
+$boost=8,site=harvard.edu
+$boost=7,site=berkeley.edu
+$boost=7,site=princeton.edu
+$boost=7,site=yale.edu
+
+! Boost content related to progressive politics and policy analysis
+$boost=8,site=politico.com
+$boost=8,site=thinkprogress.org
+$boost=8,site=theintercept.com
+$boost=7,site=thenation.com
+$boost=7,site=dailykos.com
+$boost=7,site=crooked.com
+
+! Boost LGBTQ+ advocacy and resources
+$boost=9,site=glaad.org
+$boost=9,site=hrc.org
+$boost=8,site=thetrevorproject.org
+$boost=8,site=glsen.org
+$boost=8,site=lgbtmap.org
+$boost=7,site=autostraddle.com
+$boost=7,site=them.us
+
+! Boost sites focused on women's rights and gender equality
+$boost=9,site=now.org
+$boost=9,site=feminist.org
+$boost=8,site=msmagazine.com
+$boost=8,site=womensmarch.com
+$boost=8,site=sheshouldrun.org
+$boost=8,site=iwpr.org
+
+! Boost content related to progressive economic policies
+$boost=8,site=epi.org
+$boost=8,site=cepr.net
+$boost=7,site=rooseveltinstitute.org
+$boost=7,site=brookings.edu
+
+! Boost content related to immigration reform and advocacy
+$boost=8,site=immigrationforum.org
+$boost=8,site=americanprogress.org
+$boost=8,site=unidosus.org
+$boost=7,site=migrationpolicy.org
+$boost=7,site=refugeesinternational.org
+$boost=7,site=immigrationequality.org
+
+! Slightly downrank conservative or opposing views
+$downrank=4,site=foxnews.com
+$downrank=4,site=dailywire.com
+$downrank=4,site=nationalreview.com
+$downrank=4,site=breitbart.com
+$downrank=3,site=wsj.com
+$downrank=3,site=thefederalist.com
+
+! Boost URLs containing progressive-related keywords
+*social justice*$boost=9
+*climate change*$boost=9
+*gender equality*$boost=9
+*LGBTQ+ rights*$boost=9
+*environmental sustainability*$boost=9
+*universal healthcare*$boost=9
+*income inequality*$boost=8
+*racial justice*$boost=8
+*immigration reform*$boost=8
+*renewable energy*$boost=8
+*gun control*$boost=8
+*reproductive rights*$boost=8
+
+! Note: This Goggle is designed to prioritize content aligned with progressive and liberal values, offering a tailored browsing experience while maintaining access to a broad range of information.
