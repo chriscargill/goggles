@@ -66,6 +66,6 @@ $boost=8$inurl=mexicano
 ! discard everything else
 $discard
 $downrank=5,site=reuters.com
-$boost=5,site=reuters.com$incontent=méxico
+$boost=5,site=reuters.com$inurl=méxico
 
 ! Note: This Goggle is designed to prioritize official Mexican government sources and reputable Mexican news outlets. It ensures users receive information directly from authoritative Mexican sources, providing a focused view on Mexican affairs, policies, and news. While it downranks some international sources, it still allows for relevant Mexico-specific content from these outlets.
