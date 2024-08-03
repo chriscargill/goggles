@@ -1,0 +1,241 @@
+! name: CCP Internet China Great Firewall
+! description: A fully restricted Goggle to simulate the content control of the Chinese Communist Party, only allowing access to state-approved content and completely blocking foreign or sensitive content.
+! public: true
+! author: Vasucci
+! avatar: #FF0000
+
+! Allow access only to state-approved news sites and government portals
+$boost=10,site=globaltimes.cn
+$boost=10,site=xinhuanet.com
+$boost=10,site=people.cn
+$boost=10,site=cctv.com
+$boost=10,site=china.org.cn
+$boost=10,site=chinadaily.com.cn
+$boost=10,site=gov.cn
+$boost=10,site=moe.gov.cn
+$boost=10,site=stats.gov.cn
+$boost=10,site=baidu.com
+$boost=10,site=chinaembassy.org
+
+! Completely discard all foreign news and media sites
+$discard,site=nytimes.com
+$discard,site=bbc.com
+$discard,site=cnn.com
+$discard,site=theguardian.com
+$discard,site=wsj.com
+$discard,site=reuters.com
+$discard,site=dw.com
+$discard,site=aljazeera.com
+$discard,site=voiceofamerica.com
+$discard,site=radiofreeasia.org
+$discard,site=foreignaffairs.com
+$discard,site=rsf.org
+
+! Completely discard content related to politically sensitive topics
+*democracy*$discard
+*human rights*$discard
+*Tiananmen Square*$discard
+*freedom of speech*$discard
+*Taiwan independence*$discard
+*Hong Kong protests*$discard
+*Falun Gong*$discard
+*Xinjiang*$discard
+*Uyghur*$discard
+*Tibet*$discard
+*Dalai Lama*$discard
+*June 4th incident*$discard
+*Hong Kong democracy movement*$discard
+*Tiananmen Square massacre*$discard
+*persecution of Christians in China*$discard
+
+! Completely discard access to all foreign social media platforms
+$discard,site=facebook.com
+$discard,site=twitter.com
+$discard,site=instagram.com
+$discard,site=reddit.com
+$discard,site=linkedin.com
+$discard,site=tiktok.com
+$discard,site=youtube.com
+$discard,site=pinterest.com
+$discard,site=snapchat.com
+
+! Allow access only to state-approved social media platforms
+$boost=10,site=weibo.com
+$boost=10,site=wechat.com
+$boost=10,site=douyin.com
+$boost=10,site=bilibili.com
+$boost=10,site=zhihu.com
+$boost=10,site=baijiahao.baidu.com
+$boost=10,site=netease.com
+$boost=10,site=toutiao.com
+
+! Completely discard access to VPNs and circumvention tools
+*VPN*$discard
+*proxy*$discard
+*Tor*$discard
+$discard,site=getoutvpn.com
+$discard,site=expressvpn.com
+$discard,site=nordvpn.com
+$discard,site=surfshark.com
+*shadowsocks*$discard
+*psiphon*$discard
+
+! Allow access only to government-approved educational content
+$boost=10,site=icourse163.org
+$boost=10,site=open.edu.cn
+$boost=10,site=mooc.org
+*coursera.org*$boost=10
+*edx.org*$boost=10
+*khanacademy.org*$boost=10
+*baidu.com$incontent=math*$boost=10
+
+! Completely discard content related to religious and non-sanctioned groups
+*Christianity*$discard
+*Islam*$discard
+*Buddhism*$discard
+*underground church*$discard
+*house church*$discard
+*religious freedom in China*$discard
+
+! Allow access only to content promoting Chinese culture, history, and government
+*Chinese culture*$boost=10
+*Chinese history*$boost=10
+*One-China policy*$boost=10
+*Socialism with Chinese characteristics*$boost=10
+*Belt and Road Initiative*$boost=10
+*Chinese economic development*$boost=10
+*Chinese language learning*$boost=10
+*Confucianism*$boost=10
+*Chinese traditional medicine*$boost=10
+
+! Completely discard content related to government criticism or dissident voices
+*Chinese government criticism*$discard
+*Chinese censorship*$discard
+*Chinese surveillance state*$discard
+*Chinese human rights abuses*$discard
+*dissident voices*$discard
+*freedom of the press*$discard
+*Chinese labor camps*$discard
+*Tiananmen Square protests*$discard
+*Chinese political prisoners*$discard
+
+! Allow access only to government-approved health and wellness content
+*Traditional Chinese Medicine*$boost=10
+*Chinese dietary culture*$boost=10
+*Chinese exercise practices*$boost=10
+*Chinese herbal remedies*$boost=10
+
+! Allow access only to government-approved international relations content
+*China-Russia relations*$boost=10
+*China-Africa cooperation*$boost=10
+*China's role in the UN*$boost=10
+*China's global leadership*$boost=10
+*South China Sea diplomacy*$boost=10
+*China's trade partnerships*$boost=10
+
+! Completely discard content related to international criticism of China
+*China's treatment of Uighurs*$discard
+*China's role in COVID-19*$discard
+*China's actions in Hong Kong*$discard
+*China's military expansion*$discard
+*China's espionage activities*$discard
+*China's influence operations*$discard
+*China's debt trap diplomacy*$discard
+*China's cyber warfare*$discard
+
+! Block Access to Human Rights Organizations and NGOs
+$discard,site=amnesty.org
+$discard,site=hrw.org
+$discard,site=freedomhouse.org
+$discard,site=un.org
+$discard,site=icij.org
+$discard,site=greenpeace.org
+$discard,site=transparency.org
+
+! Block Access to Content About Political Figures
+*Xi Jinping criticism*$discard
+*Winnie the Pooh*$discard
+*CCP corruption*$discard
+*CCP officials scandal*$discard
+
+! Block Access to Tools and Sites Advocating Internet Freedom
+$discard,site=eff.org
+$discard,site=theintercept.com
+*Internet freedom*$discard
+*digital rights*$discard
+*privacy tools*$discard
+
+! Restrict Content Related to Geopolitical Tensions
+*South China Sea conflict*$discard
+*China-India border disputes*$discard
+*China-Taiwan relations*$discard
+*China-Japan tensions*$discard
+
+! Block Content Critical of China's Environmental Policies
+*China air pollution*$discard
+*China water pollution*$discard
+*Chinese environmental degradation*$discard
+*Three Gorges Dam problems*$discard
+
+! Restrict Information on Public Health Issues
+*China's COVID-19 response failures*$discard
+*Wuhan lab leak theory*$discard
+*China's handling of pandemics*$discard
+
+! Block Access to Content Promoting Academic Freedom or Critiquing China's Education System
+*academic freedom in China*$discard
+*Chinese education system criticism*$discard
+*intellectual property theft*$discard
+
+! Block Access to Content on Controversial Historical Events
+*Cultural Revolution criticism*$discard
+*Great Leap Forward famine*$discard
+*Mao Zedong atrocities*$discard
+
+! Promote CCP-Approved Historical Narratives
+*CCP founding*$boost=10
+*Mao Zedong achievements*$boost=10
+*China's rise to global power*$boost=10
+
+! Block Access to Western Philosophies and Ideologies
+*Western democracy*$discard
+*capitalism criticism*$discard
+*liberalism*$discard
+*Western influence in China*$discard
+
+! Restrict Content on China's Cybersecurity and Surveillance
+*Chinese cybersecurity threats*$discard
+*Great Firewall of China*$discard
+*China's surveillance state*$discard
+
+! Block Access to Content on International Espionage Allegations
+*China espionage*$discard
+*Huawei espionage*$discard
+*China cyberattacks*$discard
+
+! Promote State-Approved Cultural Content
+*Chinese state-approved movies*$boost=10
+*Chinese propaganda films*$boost=10
+*CCP-approved literature*$boost=10
+
+! Block Access to Foreign Entertainment Content
+$discard,site=netflix.com
+$discard,site=hulu.com
+$discard,site=disneyplus.com
+$discard,site=spotify.com
+
+! Block Access to Gambling and Gaming Sites
+*online gambling*$discard
+$discard,site=pokerstars.com
+$discard,site=bet365.com
+
+! Restrict Content Related to Protests and Social Movements Globally
+*Black Lives Matter*$discard
+*Occupy Wall Street*$discard
+*Arab Spring*$discard
+
+! Boost Content on State-Approved Surveillance and Monitoring Tools
+*Social Credit System*$boost=10
+*Safe City projects*$boost=10
+
+! Note: This Goggle is designed to simulate an extremely strict content control mechanism similar to the Chinese Communist Party's approach, ensuring that only state-approved content is accessible while all other content is heavily restricted or completely blocked.
