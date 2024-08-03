@@ -1,0 +1,100 @@
+! name: Haitian Creole Websites Filter
+! description: A Goggle designed to prioritize content in Haitian Creole, highlighting websites, blogs, and resources available in the language for native speakers and learners alike.
+! public: true
+! author: Vasucci
+! avatar: #00BFFF
+
+! Boost major news and information sites in Haitian Creole
+$boost=9,site=voanouvel.com
+$boost=9,site=teleboston.com
+$boost=9,site=lefloridien.com
+$boost=8,site=radiohaitilives.com
+$boost=8,site=haitiantimes.com$inurl=creole
+$boost=8,site=alterpresse.org
+$boost=8,site=lakayweekly.com
+$boost=8,site=lenouvelliste.com
+$boost=7,site=balistrad.com
+$boost=7,site=haitilibre.com
+$boost=7,site=metropolehaiti.com
+$boost=7,site=radiotelevisioncaraibes.com
+$boost=7,site=vantbefinfo.com
+$boost=7,site=rezonodwes.com
+
+! Boost educational resources and language learning sites for Haitian Creole
+$boost=9,site=glosbe.com$inurl=creole
+$boost=8,site=ilanguages.org$inurl=creole
+$boost=8,site=omniglot.com$inurl=creole
+$boost=8,site=memrise.com$inurl=creole
+$boost=8,site=educavision.com
+$boost=8,site=haitisurf.com
+$boost=7,site=wiktionary.org$inurl=creole
+$boost=7,site=haitiancreole.org
+$boost=7,site=creolelanguages.net
+$boost=7,site=kreyol.com
+$boost=7,site=ann-pale-kreyol.com
+$boost=6,site=learn101.org$inurl=creole
+
+! Boost cultural and community sites in Haitian Creole
+$boost=8,site=konbit.org
+$boost=8,site=ayitikolektiv.org
+$boost=8,site=ayibopost.com
+$boost=8,site=ayiticheri.com
+$boost=8,site=potomitan.info
+$boost=7,site=zantray.org
+$boost=7,site=kreyol.com
+$boost=7,site=fabiennecolasfoundation.org
+$boost=7,site=afroculture.net$inurl=creole
+$boost=7,site=lakay.com
+$boost=7,site=haitianculture.com
+
+! Boost government and public service websites available in Haitian Creole
+$boost=9,site=haiti.gov.ht
+$boost=8,site=ministere.de
+$boost=8,site=pnh.ht
+$boost=8,site=communication.gouv.ht
+$boost=8,site=menfp.gouv.ht
+$boost=7,site=education.gouv.ht
+$boost=7,site=mspp.gouv.ht
+$boost=7,site=haiticulture.ch
+
+! Boost websites offering services and information in Haitian Creole
+$boost=8,site=digicelgroup.com$inurl=creole
+$boost=8,site=natcom.com.ht$inurl=creole
+$boost=8,site=ht.wikipedia.org
+$boost=7,site=radiokiskeya.com
+$boost=7,site=bnr.ht
+$boost=7,site=dhl.com$inurl=creole
+$boost=7,site=haitiantax.com
+
+! Boost Haitian Creole language learning resources
+$boost=7,site=creoleinstitute.com
+$boost=7,site=kreyollafamni.com
+
+! Boost URLs containing Haitian Creole-related keywords
+*Kreyòl*$boost=10
+*Haitian Creole*$boost=10
+*ayisyen*$boost=10
+*ayiti*$boost=10
+*Haitian language*$boost=9
+*kreyol ayisyen*$boost=9
+*lang kreyol*$boost=9
+*kilti ayisyen*$boost=9
+*resous kreyol*$boost=9
+*ayiti kreyol*$boost=9
+
+! Boost content with Haitian Creole language indicators
+$boost=9,inurl=ht
+$boost=9,inurl=creole
+$boost=9,inurl=kreyol
+
+! Slightly downrank non-Haitian Creole content
+$downrank=10,site=cnn.com
+$downrank=10,site=bbc.com
+$downrank=10,site=nytimes.com
+$downrank=10,site=theguardian.com
+$downrank=10,site=wikipedia.org
+$downrank=10,site=foxnews.com
+$downrank=10,site=wsj.com
+$downrank=10,site=msnbc.com
+
+! Note: This Goggle is designed to enhance the browsing experience for those seeking content in Haitian Creole, providing access to a wide range of websites, resources, and services available in the language. It prioritizes Haitian Creole content across various domains, offering a tailored browsing experience for Haitian Creole speakers while maintaining access to a broad range of information.
