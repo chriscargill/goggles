@@ -74,7 +74,7 @@ $boost=8,site=iwpr.org
 $boost=8,site=epi.org
 $boost=8,site=cepr.net
 $boost=7,site=rooseveltinstitute.org
-$boost=7,site=brookings.edu$incontent=progressive
+$boost=7,site=brookings.edu
 
 ! Boost content related to immigration reform and advocacy
 $boost=8,site=immigrationforum.org
