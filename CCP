@@ -87,9 +87,9 @@ $discard,site=persecution.org
 $discard,site=religiousfreedom.org
 
 ! Allow access only to content promoting Chinese culture, history, and government
-$boost=10,*chinese culture*
+*chinese culture*$boost=10
 
-$discard,*china's espionage activities*
+*china's espionage activities*$discard
 
 
 ! Note: This Goggle is designed to simulate an extremely strict content control mechanism similar to the Chinese Communist Party's approach, ensuring that only state-approved content is accessible while all other content is heavily restricted or completely blocked.
