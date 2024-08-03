@@ -63,7 +63,7 @@ $boost=8,site=israelhayom.com
 $boost=8,site=jpost.com
 $boost=8,site=israeltoday.co.il
 $boost=7,site=algemeiner.com
-$boost=7,site=timesofisrael.com$incontent=right-wing
+$boost=7,site=timesofisrael.com
 $boost=7,site=jns.org
 $boost=6,site=tabletmag.com
 $boost=6,site=jewishpress.com
@@ -89,7 +89,6 @@ $boost=7,site=cps.org.uk
 $boost=7,site=cis.org.au
 $boost=7,site=jcpa.org
 $boost=6,site=mises.org
-$boost=6,site=acast.com/quillette
 $boost=6,site=fraserinstitute.org
 
 ! Conservative YouTube channels
