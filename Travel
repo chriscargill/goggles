@@ -6,7 +6,7 @@
 
 ! Boost major travel guide and adventure websites
 $boost=10,site=lonelyplanet.com
-$boost=10,site=nationalgeographic.com$incontent=travel
+$boost=10,site=nationalgeographic.com$inurl=travel
 $boost=10,site=tripadvisor.com
 $boost=10,site=roughguides.com
 $boost=10,site=fodors.com
@@ -73,38 +73,38 @@ $boost=9,site=cookly.me
 $boost=9,site=eatwith.com
 
 ! Boost travel photography and inspiration sites
-$boost=9,site=500px.com$incontent=travel
-$boost=9,site=instagram.com$incontent=travel
-$boost=9,site=pinterest.com$incontent=travel
-$boost=9,site=flickr.com$incontent=travel
+$boost=9,site=500px.com$inurl=travel
+$boost=9,site=instagram.com$inurl=travel
+$boost=9,site=pinterest.com$inurl=travel
+$boost=9,site=flickr.com$inurl=travel
 $boost=9,site=trover.com
-$boost=9,site=unsplash.com$incontent=travel
-$boost=9,site=smugmug.com$incontent=travel
-$boost=9,site=viewbug.com$incontent=travel
+$boost=9,site=unsplash.com$inurl=travel
+$boost=9,site=smugmug.com$inurl=travel
+$boost=9,site=viewbug.com$inurl=travel
 $boost=9,site=earthporn.com
 $boost=9,site=trey.com
 
 ! Boost travel forums and community sites
-$boost=10,site=lonelyplanet.com$incontent=forum
-$boost=10,site=tripadvisor.com$incontent=forum
+$boost=10,site=lonelyplanet.com$inurl=forum
+$boost=10,site=tripadvisor.com$inurl=forum
 $boost=10,site=travellerspoint.com
 $boost=10,site=flyertalk.com
-$boost=10,site=reddit.com$incontent=travel
+$boost=10,site=reddit.com$inurl=travel
 $boost=9,site=trippy.com
 $boost=9,site=virtualtourist.com
-$boost=9,site=lonelyplanet.com$incontent=thorntree
+$boost=9,site=lonelyplanet.com$inurl=thorntree
 $boost=9,site=travbuddy.com
-$boost=9,site=backpackinglight.com$incontent=forum
+$boost=9,site=backpackinglight.com$inurl=forum
 
 ! Boost travel safety and health information
 $boost=10,site=travel.state.gov
-$boost=10,site=who.int$incontent=travel
-$boost=10,site=cdc.gov$incontent=travel
+$boost=10,site=who.int$inurl=travel
+$boost=10,site=cdc.gov$inurl=travel
 $boost=10,site=iamat.org
 $boost=10,site=safetravel.govt.nz
 $boost=9,site=smartraveller.gov.au
 $boost=9,site=travel.gc.ca
-$boost=9,site=gov.uk$incontent=foreign-travel-advice
+$boost=9,site=gov.uk$inurl=foreign-travel-advice
 $boost=9,site=fitfortravel.nhs.uk
 $boost=9,site=travelhealthpro.org.uk
 
@@ -122,15 +122,15 @@ $boost=9,site=ecobnb.com
 
 ! Boost travel gear and equipment reviews
 $boost=9,site=outdoorgearlab.com
-$boost=9,site=thewirecutter.com$incontent=travel
+$boost=9,site=thewirecutter.com$inurl=travel
 $boost=9,site=packhacker.com
 $boost=9,site=thetravelhack.com
 $boost=9,site=onebag.com
 $boost=9,site=carryology.com
-$boost=9,site=tortugabackpacks.com$incontent=blog
-$boost=9,site=rei.com$incontent=expert-advice
+$boost=9,site=tortugabackpacks.com$inurl=blog
+$boost=9,site=rei.com$inurl=expert-advice
 $boost=9,site=switchbacktravel.com
-$boost=9,site=gearpatrol.com$incontent=travel
+$boost=9,site=gearpatrol.com$inurl=travel
 
 ! Boost travel industry news and trends
 $boost=8,site=skift.com
