@@ -134,7 +134,7 @@ $discard,site=mediabiasfactcheck.com
 $discard,site=adfontesmedia.com
 $discard,site=propublica.org
 $discard,site=poynter.org
-$discard,site=apnews.com/hub/ap-fact-check
+$discard,site=apnews.com
 $discard,site=fullfact.org
 $discard,site=truthorfiction.com
 
