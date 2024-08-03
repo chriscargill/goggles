@@ -313,4 +313,236 @@ $boost=8,site=homemetry.com
 $boost=8,site=qpublic.net
 $boost=8,site=eagleviewonline.com
 $boost=8,site=landrecords.com
-$boost=8,site=
+$boost=8,site=landwatch.com
+$boost=8,site=landflip.com
+$boost=8,site=naco.org
+$boost=8,site=countyoffice.org
+
+! Public Records Search Engines
+$boost=9,site=truthfinder.com
+$boost=9,site=intelius.com
+$boost=9,site=beenverified.com
+$boost=9,site=peoplesearch.net
+$boost=9,site=publicrecordsnow.com
+$boost=9,site=publicrecords.com
+$boost=8,site=instantcheckmate.com
+$boost=8,site=spokeo.com
+$boost=8,site=peoplefinders.com
+$boost=8,site=peoplelooker.com
+$boost=8,site=radaris.com
+$boost=8,site=searchpeoplefree.com
+$boost=8,site=fastpeoplesearch.com
+$boost=8,site=familytreenow.com
+$boost=8,site=usearch.com
+$boost=8,site=pipl.com
+$boost=8,site=backgroundchecks.org
+$boost=8,site=peoplebyname.com
+$boost=8,site=peoplesearchnow.com
+$boost=8,site=peoplefinder.com
+
+! Business and Corporate Research Tools
+$boost=9,site=opencorporates.com
+$boost=9,site=dnb.com
+$boost=9,site=crunchbase.com
+$boost=9,site=zoominfo.com
+$boost=9,site=corporationwiki.com
+$boost=9,site=hoovers.com
+$boost=8,site=edgar.sec.gov
+$boost=8,site=bizstats.com
+$boost=8,site=manta.com
+$boost=8,site=glassdoor.com
+$boost=8,site=indeed.com
+$boost=8,site=owler.com
+$boost=8,site=rocketreach.co
+$boost=8,site=buzzfile.com
+$boost=8,site=companieshouse.gov.uk
+$boost=8,site=ebr.org
+$boost=8,site=northdata.de
+$boost=8,site=ycombinator.com
+$boost=8,site=pitchbook.com
+$boost=8,site=corporateinformation.com
+
+! News Archives and Historical Newspaper Databases
+$boost=9,site=newspapers.com
+$boost=9,site=news.google.com
+$boost=9,site=chroniclingamerica.loc.gov
+$boost=9,site=newspaperarchive.com
+$boost=9,site=theancestorhunt.com
+$boost=8,site=archives.gov
+$boost=8,site=britishnewspaperarchive.co.uk
+$boost=8,site=elephind.com
+$boost=8,site=genealogybank.com
+$boost=8,site=newspaperindex.com
+$boost=8,site=nla.gov.au
+$boost=8,site=trove.nla.gov.au
+$boost=8,site=europeana.eu
+$boost=8,site=gallica.bnf.fr
+$boost=8,site=loc.gov
+$boost=8,site=newslibrary.com
+$boost=8,site=newspapermap.com
+$boost=8,site=onlinenewspapers.com
+$boost=8,site=thegazette.co.uk
+$boost=8,site=pressreader.com
+
+! Academic and Scientific Research Tools
+$boost=9,site=scholar.google.com
+$boost=9,site=researchgate.net
+$boost=9,site=academia.edu
+$boost=9,site=jstor.org
+$boost=9,site=arxiv.org
+$boost=9,site=sciencedirect.com
+$boost=8,site=semanticscholar.org
+$boost=8,site=worldcat.org
+$boost=8,site=base-search.net
+$boost=8,site=core.ac.uk
+$boost=8,site=pubmed.ncbi.nlm.nih.gov
+$boost=8,site=eric.ed.gov
+$boost=8,site=citeseerx.ist.psu.edu
+$boost=8,site=doaj.org
+$boost=8,site=scienceopen.com
+$boost=8,site=lens.org
+$boost=8,site=dimensions.ai
+$boost=8,site=unpaywall.org
+$boost=8,site=oaister.worldcat.org
+$boost=8,site=opencitations.net
+
+! OSINT Tools for Social Media Investigations
+$boost=9,site=namechk.com
+$boost=9,site=whatsmyname.app
+$boost=9,site=namecheckup.com
+$boost=9,site=boardreader.com
+$boost=9,site=social-searcher.com
+$boost=8,site=socialmention.com
+$boost=8,site=kribrum.io
+$boost=8,site=hashatit.com
+$boost=8,site=twoogel.com
+$boost=8,site=tweetbeaver.com
+$boost=8,site=sleepingtime.org
+$boost=8,site=spoonbill.io
+$boost=8,site=twitteraudit.com
+$boost=8,site=likealyzer.com
+$boost=8,site=wolframalpha.com
+$boost=8,site=allmytweets.net
+$boost=8,site=twitonomy.com
+$boost=8,site=whotweetedwhatfirst.com
+$boost=8,site=followerwonk.com
+$boost=8,site=socialbearing.com
+
+! OSINT Tools for Financial Investigations
+$boost=8,site=offshoreleaks.icij.org
+$boost=8,site=finra.org
+$boost=8,site=sec.gov
+$boost=8,site=opensecrets.org
+$boost=8,site=fec.gov
+$boost=8,site=followthemoney.org
+$boost=8,site=investopedia.com
+$boost=8,site=bloomberg.com
+$boost=8,site=finance.yahoo.com
+$boost=8,site=finviz.com
+$boost=7,site=nasdaq.com
+$boost=7,site=marketwatch.com
+$boost=7,site=barchart.com
+$boost=7,site=stockcharts.com
+$boost=7,site=fool.com
+$boost=7,site=morningstar.com
+$boost=7,site=seekingalpha.com
+$boost=7,site=gurufocus.com
+$boost=7,site=macrotrends.net
+$boost=7,site=tradingview.com
+
+! OSINT Tools for Vehicle Information
+$boost=8,site=vehiclehistory.com
+$boost=8,site=vincheck.info
+$boost=8,site=nicb.org
+$boost=8,site=autocheck.com
+$boost=8,site=carfax.com
+$boost=8,site=vehiclehistory.gov
+$boost=7,site=vindecoderz.com
+$boost=7,site=vin-info.com
+$boost=7,site=vinaudit.com
+$boost=7,site=autodna.com
+$boost=7,site=carvana.com
+$boost=7,site=carvertical.com
+$boost=7,site=licenseplatemania.com
+$boost=7,site=faxvin.com
+$boost=7,site=vehiclesmart.gov.uk
+$boost=7,site=vehicleenquiry.service.gov.uk
+$boost=7,site=cartell.ie
+$boost=7,site=rac.co.uk
+$boost=7,site=mycarfax.com
+$boost=7,site=checkcardetails.co.uk
+
+! OSINT Tools for Phone Number Lookup
+$boost=8,site=calleridtest.com
+$boost=8,site=phoneinfoga.crvx.fr
+$boost=8,site=revealname.com
+$boost=8,site=spydialer.com
+$boost=8,site=peoplebyname.com
+$boost=8,site=phonevalidator.com
+$boost=7,site=truecaller.com
+$boost=7,site=whitepages.com
+$boost=7,site=411.com
+$boost=7,site=spokeo.com
+$boost=7,site=calleridservice.com
+$boost=7,site=sync.me
+$boost=7,site=opencnam.com
+$boost=7,site=reversephonelookup.com
+$boost=7,site=phoneowner.com
+$boost=7,site=callapp.com
+$boost=7,site=numpi.com
+$boost=7,site=infobel.com
+$boost=7,site=thephonebook.bt.com
+$boost=7,site=yellowpages.com
+
+! OSINT Tools for Username and Email Investigations
+$boost=9,site=knowem.com
+$boost=9,site=usersearch.org
+$boost=9,site=emailsherlock.com
+$boost=9,site=namechk.com
+$boost=9,site=namecheckr.com
+$boost=8,site=checkusernames.com
+$boost=8,site=namevine.com
+$boost=8,site=userrecon.com
+$boost=8,site=spokeo.com
+$boost=8,site=pipl.com
+$boost=8,site=emailrep.io
+$boost=8,site=thatsthem.com
+$boost=8,site=peekyou.com
+$boost=8,site=namecheckr.com
+$boost=8,site=instantusername.com
+$boost=7,site=haveibeenpwned.com
+$boost=7,site=email-checker.net
+$boost=7,site=emailverifier.co
+$boost=7,site=rocketreach.co
+$boost=7,site=hunter.io
+
+! Slightly downrank potentially harmful or unethical OSINT uses
+*doxing*$downrank=3
+*cyberstalking*$downrank=3
+*harassment*$downrank=3
+
+! Boost ethical OSINT practices and guidelines
+$boost=9,site=osintframework.com
+$boost=9,site=osintcurio.us
+$boost=9,site=i-intelligence.eu
+$boost=9,site=toddington.com
+$boost=9,site=osintessentials.com
+$boost=8,site=inteltechniques.com
+$boost=8,site=osintdojo.com
+$boost=8,site=osinttechniques.com
+$boost=8,site=osintcombine.com
+$boost=8,site=osintcollege.com
+
+! Ethical considerations for expanded OSINT tools
+*privacy concerns*$boost=5
+*ethical use of public records*$boost=5
+*responsible genealogy research*$boost=5
+*data protection in OSINT*$boost=5
+*ethical hacking*$boost=5
+*information security ethics*$boost=5
+*digital footprint awareness*$boost=5
+*responsible disclosure*$boost=5
+*online privacy protection*$boost=5
+*cybersecurity ethics*$boost=5
+
+! Note: This ultra-comprehensive Goggle is designed to prioritize a vast array of OSINT tools and resources for legitimate information gathering and analysis across multiple domains. Users are strongly encouraged to use these tools responsibly and ethically, respecting privacy and legal boundaries. Many tools may require additional permissions or have usage restrictions. Always consider the ethical implications of your research and respect individuals' privacy rights. This Goggle is intended for educational and professional use only.
