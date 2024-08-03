@@ -1,0 +1,25 @@
+! name: Salisbury MD News Filter
+! description: A Goggle designed to prioritize local news content from Salisbury, MD, providing focused coverage of community events, news, and updates from trusted local sources.
+! public: false
+! author: Vasucci
+! avatar: #4682B4
+
+! Boost Salisbury MD news websites
+$boost=10,site=delmarvanow.com
+$boost=9,site=wboc.com
+$boost=9,site=wmdt.com
+$boost=8,site=salisburyindependent.net
+$boost=7,site=mdcoastdispatch.com
+$boost=7,site=baytobaynews.com
+
+! Boost URLs containing Salisbury, MD-related keywords
+*Salisbury MD news*$boost=10
+*Wicomico County news*$boost=9
+*Salisbury community events*$boost=9
+*Salisbury local news*$boost=9
+*Delmarva news*$boost=8
+
+$discard
+
+
+! Note: This Goggle is designed to prioritize news and updates specifically from Salisbury, MD, ensuring that local content is highlighted while maintaining access to a broad range of information.
